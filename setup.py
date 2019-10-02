@@ -12,7 +12,7 @@ if sys.platform == 'win32':
 
 executables = [Executable("train.py", base=base)]
 
-packages = ["idna","os","sys","cx_Freeze","tkinter","cv2","setup",
+packages = ["idna","os","sys","cx_Freeze","tkinter","setup",
             "numpy","PIL","pandas","datetime","time"]
 options = {
     'build_exe': {
